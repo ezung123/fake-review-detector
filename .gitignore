@@ -29,6 +29,7 @@ share/python-wheels/
 # Model weights and artifacts (keep .gitkeep)
 api/models/*
 !api/models/.gitkeep
+!api/models/*.json
 
 # Raw and processed datasets (keep .gitkeep)
 data/raw/*
@@ -46,6 +47,7 @@ web/.env.*.local
 # ML Artifacts & Checkpoints
 ml/reports/*.png
 ml/reports/*.pdf
+ml/reports/.matplotlib/
 ml/checkpoints/
 
 # IDE & OS
