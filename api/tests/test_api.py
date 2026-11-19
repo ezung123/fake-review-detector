@@ -47,8 +47,9 @@ def test_analyze_valid_input():
         assert "weight" in first
 
     # Check model info & warnings
-    assert data["model_info"]["mode"] == "stub"
-    assert len(data["warnings"]) > 0
+    assert data["model_info"]["mode"] in ["stub", "classical", "transformer"]
+    assert "Authorship model trained on Amazon-style and movie reviews" in data["warnings"]
+    assert "Deception model trained on Chicago hotel reviews only; treat as indicative" in data["warnings"]
 
 def test_analyze_determinism():
     """Verify that same input text yields identical deterministic probabilities and tokens."""
@@ -71,4 +72,15 @@ def test_analyze_text_too_long():
     long_text = "word " * 700
     response = client.post("/analyze", json={"text": long_text})
     assert response.status_code == 422
+
+def test_analyze_cleaning():
+    """Verify that leading chat preambles and HTML tags are cleaned transparently."""
+    dirty_text = "Sure! Here is my review of the hotel: We stayed for two nights.<br /><br />Everything was great!"
+    response = client.post("/analyze", json={"text": dirty_text})
+    assert response.status_code == 200
+    data = response.json()
+    assert data["authorship"]["label"] in ["human", "ai"]
+    assert "Authorship model trained on Amazon-style and movie reviews" in data["warnings"]
+    assert "Deception model trained on Chicago hotel reviews only; treat as indicative" in data["warnings"]
+
 

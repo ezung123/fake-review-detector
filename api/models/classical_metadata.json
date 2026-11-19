@@ -1,22 +1,26 @@
 {
-  "timestamp": "2026-11-19T10:56:54.115551",
+  "timestamp": "2026-11-19T17:30:47.231676",
+  "version": "v2",
   "authorship_model": {
-    "filename": "authorship_classical.joblib",
+    "filename": "authorship_classical_v2.joblib",
     "architecture": "tfidf_svc",
-    "test_macro_f1": 0.9266537784243166,
-    "test_roc_auc": 0.9759737482445765,
-    "salminen_test_f1": 0.933179842601162,
-    "raid_test_f1": 0.8297181079789775,
-    "ott_predicted_ai_share": 0.0018796992481203006
+    "val_macro_f1": 0.9317037698204348,
+    "test_macro_f1": 0.9275794528472021,
+    "test_roc_auc": 0.9758342289014744,
+    "salminen_test_f1": 0.9363968328772257,
+    "raid_test_f1": 0.7993362176257927,
+    "ott_predicted_ai_share": 0.0037593984962406013
   },
   "deception_model": {
-    "filename": "deception_classical.joblib",
+    "filename": "deception_classical_v2.joblib",
     "architecture": "tfidf_svc",
-    "cv_macro_f1_mean": 0.8940693839695608,
-    "cv_macro_f1_std": 0.0036122201873095474,
-    "cv_roc_auc_mean": 0.9583781937893081
+    "cv_macro_f1_mean": 0.9028220134577589,
+    "cv_macro_f1_std": 0.009623650005811689,
+    "cv_roc_auc_mean": 0.9603164799528301
   },
   "feature_settings": {
+    "cleaning": "ml.src.data.cleaning.clean_text",
+    "token_pattern": "(?u)\\b\\w+\\b",
     "tfidf_ngram_range": [
       1,
       2
@@ -29,8 +33,7 @@
       "avg_word_length",
       "punctuation_density",
       "text_length"
-    ],
-    "perplexity_optional": true
+    ]
   },
   "dataset_files": [
     "data/processed/train.csv",

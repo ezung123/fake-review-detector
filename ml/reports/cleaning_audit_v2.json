@@ -1,0 +1,491 @@
+{
+  "timestamp": "2026-11-19T17:25:33.737719",
+  "audit_results": {
+    "train.csv": {
+      "file_name": "train.csv",
+      "total_rows": 34531,
+      "br_tags": {
+        "total_count": 539,
+        "total_percentage": 1.5609162781269006,
+        "by_source_authorship": {
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 1453,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 754,
+            "br_count": 539,
+            "br_percentage": 71.48541114058355
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 16152,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 16172,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 34531,
+            "br_count": 539,
+            "br_percentage": 1.5609162781269006
+          }
+        }
+      },
+      "chat_preambles": {
+        "total_count": 13,
+        "total_percentage": 0.03764733138339463,
+        "by_source_authorship": {
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 1453,
+            "preamble_count": 13,
+            "preamble_percentage": 0.8947006194081212
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 754,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 16152,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 16172,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 34531,
+            "preamble_count": 13,
+            "preamble_percentage": 0.03764733138339463
+          }
+        }
+      }
+    },
+    "val.csv": {
+      "file_name": "val.csv",
+      "total_rows": 4365,
+      "br_tags": {
+        "total_count": 73,
+        "total_percentage": 1.6723940435280642,
+        "by_source_authorship": {
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 231,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 94,
+            "br_count": 73,
+            "br_percentage": 77.6595744680851
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 2019,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 2021,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 4365,
+            "br_count": 73,
+            "br_percentage": 1.6723940435280642
+          }
+        }
+      },
+      "chat_preambles": {
+        "total_count": 2,
+        "total_percentage": 0.045819014891179836,
+        "by_source_authorship": {
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 231,
+            "preamble_count": 2,
+            "preamble_percentage": 0.8658008658008658
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 94,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 2019,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 2021,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 4365,
+            "preamble_count": 2,
+            "preamble_percentage": 0.045819014891179836
+          }
+        }
+      }
+    },
+    "test.csv": {
+      "file_name": "test.csv",
+      "total_rows": 5934,
+      "br_tags": {
+        "total_count": 59,
+        "total_percentage": 0.9942703067071115,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 202,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 95,
+            "br_count": 59,
+            "br_percentage": 62.10526315789474
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 2019,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 2022,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 4338,
+            "br_count": 59,
+            "br_percentage": 1.360073766712771
+          }
+        }
+      },
+      "chat_preambles": {
+        "total_count": 3,
+        "total_percentage": 0.05055611729019212,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 202,
+            "preamble_count": 3,
+            "preamble_percentage": 1.4851485148514851
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 95,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 2019,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 2022,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 4338,
+            "preamble_count": 3,
+            "preamble_percentage": 0.06915629322268327
+          }
+        }
+      }
+    },
+    "ott_deception_5fold.csv": {
+      "file_name": "ott_deception_5fold.csv",
+      "total_rows": 1596,
+      "br_tags": {
+        "total_count": 0,
+        "total_percentage": 0.0,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        }
+      },
+      "chat_preambles": {
+        "total_count": 0,
+        "total_percentage": 0.0,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        }
+      }
+    },
+    "unified_dataset.csv": {
+      "file_name": "unified_dataset.csv",
+      "total_rows": 44830,
+      "br_tags": {
+        "total_count": 671,
+        "total_percentage": 1.4967655587776043,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 1886,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 943,
+            "br_count": 671,
+            "br_percentage": 71.15588547189819
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 20190,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 20215,
+            "br_count": 0,
+            "br_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "br_count": 0,
+            "br_percentage": 0.0
+          },
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 43234,
+            "br_count": 671,
+            "br_percentage": 1.5520192441134293
+          }
+        }
+      },
+      "chat_preambles": {
+        "total_count": 18,
+        "total_percentage": 0.04015168414008476,
+        "by_source_authorship": {
+          "ott_human": {
+            "source_dataset": "ott",
+            "authorship_label": "human",
+            "total_rows": 1596,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "raid_ai": {
+            "source_dataset": "raid",
+            "authorship_label": "ai",
+            "total_rows": 1886,
+            "preamble_count": 18,
+            "preamble_percentage": 0.9544008483563097
+          },
+          "raid_human": {
+            "source_dataset": "raid",
+            "authorship_label": "human",
+            "total_rows": 943,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_ai": {
+            "source_dataset": "salminen",
+            "authorship_label": "ai",
+            "total_rows": 20190,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "salminen_human": {
+            "source_dataset": "salminen",
+            "authorship_label": "human",
+            "total_rows": 20215,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          }
+        },
+        "by_deception_label": {
+          "deceptive": {
+            "deception_label": "deceptive",
+            "total_rows": 800,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "genuine": {
+            "deception_label": "genuine",
+            "total_rows": 796,
+            "preamble_count": 0,
+            "preamble_percentage": 0.0
+          },
+          "unknown": {
+            "deception_label": "unknown",
+            "total_rows": 43234,
+            "preamble_count": 18,
+            "preamble_percentage": 0.04163389924596383
+          }
+        }
+      }
+    }
+  }
+}

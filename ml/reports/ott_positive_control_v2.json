@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-11-19T17:32:13.739038",
+  "model_version": "v2",
+  "model_path": "api\\models\\authorship_classical_v2.joblib",
+  "synthetic_positive_control": {
+    "dataset_path": "data\\processed\\synthetic_hotel_ai.csv",
+    "total_reviews": 200,
+    "overall": {
+      "predicted_ai_count": 4,
+      "predicted_ai_percentage": 2.0,
+      "mean_predicted_prob_ai": 0.07371029038735243,
+      "median_predicted_prob_ai": 0.053383814717726824
+    },
+    "positive_sentiment": {
+      "total_reviews": 100,
+      "predicted_ai_count": 4,
+      "predicted_ai_percentage": 4.0,
+      "mean_predicted_prob_ai": 0.08544984141896812,
+      "median_predicted_prob_ai": 0.0667696866862018
+    },
+    "negative_sentiment": {
+      "total_reviews": 100,
+      "predicted_ai_count": 0,
+      "predicted_ai_percentage": 0.0,
+      "mean_predicted_prob_ai": 0.06197073935573675,
+      "median_predicted_prob_ai": 0.04601688960415447
+    }
+  },
+  "ott_held_out_evaluation": {
+    "dataset_path": "data\\processed\\ott_deception_5fold.csv",
+    "total_reviews": 1596,
+    "overall": {
+      "predicted_ai_count": 6,
+      "predicted_ai_percentage": 0.37593984962406013,
+      "mean_predicted_prob_ai": 0.05688931647635653,
+      "median_predicted_prob_ai": 0.03744518930753321
+    },
+    "truthful_genuine": {
+      "total_reviews": 796,
+      "predicted_ai_count": 4,
+      "predicted_ai_percentage": 0.5025125628140703,
+      "mean_predicted_prob_ai": 0.05260460669769046,
+      "median_predicted_prob_ai": 0.03550463892663248
+    },
+    "deceptive": {
+      "total_reviews": 800,
+      "predicted_ai_count": 2,
+      "predicted_ai_percentage": 0.25,
+      "mean_predicted_prob_ai": 0.061152602706129267,
+      "median_predicted_prob_ai": 0.039484679331858556
+    }
+  },
+  "statistical_power_assessment": {
+    "has_statistical_power": false,
+    "statement": "Based on the positive control detection rate of 2.00% (mean P(AI) = 0.0737), the model exhibits very low sensitivity to AI-generated text in the hotel domain. Consequently, the Ott independence test lacks statistical power, and the low predicted AI rate on Ott (0.38%) cannot be interpreted as confirming independence."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-19T17:30:47.231676",
+  "version": "v2",
+  "authorship_model": {
+    "filename": "authorship_classical_v2.joblib",
+    "architecture": "tfidf_svc",
+    "val_macro_f1": 0.9317037698204348,
+    "test_macro_f1": 0.9275794528472021,
+    "test_roc_auc": 0.9758342289014744,
+    "salminen_test_f1": 0.9363968328772257,
+    "raid_test_f1": 0.7993362176257927,
+    "ott_predicted_ai_share": 0.0037593984962406013
+  },
+  "deception_model": {
+    "filename": "deception_classical_v2.joblib",
+    "architecture": "tfidf_svc",
+    "cv_macro_f1_mean": 0.9028220134577589,
+    "cv_macro_f1_std": 0.009623650005811689,
+    "cv_roc_auc_mean": 0.9603164799528301
+  },
+  "feature_settings": {
+    "cleaning": "ml.src.data.cleaning.clean_text",
+    "token_pattern": "(?u)\\b\\w+\\b",
+    "tfidf_ngram_range": [
+      1,
+      2
+    ],
+    "tfidf_sublinear_tf": true,
+    "min_df": 2,
+    "stylometric_features": [
+      "burstiness",
+      "type_token_ratio",
+      "avg_word_length",
+      "punctuation_density",
+      "text_length"
+    ]
+  },
+  "dataset_files": [
+    "data/processed/train.csv",
+    "data/processed/val.csv",
+    "data/processed/test.csv",
+    "data/processed/ott_deception_5fold.csv"
+  ]
+}

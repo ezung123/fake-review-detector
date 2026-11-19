@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-11-19T17:31:51.390164",
+  "entity_terms": [
+    "hard rock",
+    "magnificent mile",
+    "michigan ave",
+    "michigan avenue",
+    "palmer house",
+    "homewood suites",
+    "chicago",
+    "hilton",
+    "hyatt",
+    "omni",
+    "priceline",
+    "expedia",
+    "tripadvisor",
+    "sofitel",
+    "intercontinental",
+    "affinia",
+    "allegro",
+    "amalfi",
+    "ambassador",
+    "conrad",
+    "fairmont",
+    "hardrock",
+    "homewood",
+    "james",
+    "knickerbocker",
+    "monaco",
+    "palmer",
+    "sheraton",
+    "swissotel",
+    "talbott"
+  ],
+  "token_pattern": "(?u)\\b\\w+\\b",
+  "results": {
+    "tfidf_lr": {
+      "unmasked": {
+        "macro_f1_mean": 0.8940899866756447,
+        "macro_f1_std": 0.0036919768146313784,
+        "precision_mean": 0.8930734293556812,
+        "precision_std": 0.007471865673076728,
+        "recall_mean": 0.89625,
+        "recall_std": 0.015103807466993205,
+        "f1_mean": 0.894524992776174,
+        "f1_std": 0.004640684731915888,
+        "roc_auc_mean": 0.9564101808176101
+      },
+      "masked": {
+        "macro_f1_mean": 0.8934592411797064,
+        "macro_f1_std": 0.0034870961300702886,
+        "precision_mean": 0.8991271173150432,
+        "precision_std": 0.01381121488568061,
+        "recall_mean": 0.8875,
+        "recall_std": 0.0131101106021269,
+        "f1_mean": 0.8930830755597008,
+        "f1_std": 0.0030015432996960555,
+        "roc_auc_mean": 0.9556730542452831
+      },
+      "delta_macro_f1": -0.000630745495938223,
+      "delta_roc_auc": -0.0007371265723269405
+    },
+    "tfidf_svc": {
+      "unmasked": {
+        "macro_f1_mean": 0.9028220134577589,
+        "macro_f1_std": 0.009623650005811689,
+        "precision_mean": 0.8954727886517084,
+        "precision_std": 0.021750473565461212,
+        "recall_mean": 0.91375,
+        "recall_std": 0.011456439237389603,
+        "f1_mean": 0.9042467084455035,
+        "f1_std": 0.007981686230629207,
+        "roc_auc_mean": 0.9603164799528301
+      },
+      "masked": {
+        "macro_f1_mean": 0.8965759173036384,
+        "macro_f1_std": 0.007791013345965075,
+        "precision_mean": 0.890971412058855,
+        "precision_std": 0.016934720196319614,
+        "recall_mean": 0.905,
+        "recall_std": 0.009185586535436885,
+        "f1_mean": 0.8977671479121374,
+        "f1_std": 0.006515566881776244,
+        "roc_auc_mean": 0.958580041273585
+      },
+      "delta_macro_f1": -0.006246096154120528,
+      "delta_roc_auc": -0.0017364386792451114
+    },
+    "stylometric_lr": {
+      "unmasked": {
+        "macro_f1_mean": 0.6507618002594239,
+        "macro_f1_std": 0.019392791711789984,
+        "precision_mean": 0.640589269563374,
+        "precision_std": 0.01734758895905038,
+        "recall_mean": 0.6950000000000001,
+        "recall_std": 0.03020761493398644,
+        "f1_mean": 0.6664689041173963,
+        "f1_std": 0.02093579912583313,
+        "roc_auc_mean": 0.7021176788522012
+      },
+      "masked": {
+        "macro_f1_mean": 0.5983077830235024,
+        "macro_f1_std": 0.02127763785292532,
+        "precision_mean": 0.5940927546578669,
+        "precision_std": 0.02136566074155446,
+        "recall_mean": 0.63375,
+        "recall_std": 0.023251344047172835,
+        "f1_mean": 0.6130607575570337,
+        "f1_std": 0.018834644622140073,
+        "roc_auc_mean": 0.6336286360062894
+      },
+      "delta_macro_f1": -0.05245401723592147,
+      "delta_roc_auc": -0.06848904284591184
+    },
+    "length_only": {
+      "unmasked": {
+        "macro_f1_mean": 0.4949993064125012,
+        "macro_f1_std": 0.020558322474513974,
+        "precision_mean": 0.5043510185466706,
+        "precision_std": 0.016624637195850903,
+        "recall_mean": 0.6387500000000002,
+        "recall_std": 0.02721442632134654,
+        "f1_mean": 0.5635938611684521,
+        "f1_std": 0.020400939884316124,
+        "roc_auc_mean": 0.5142918877751572
+      },
+      "masked": {
+        "macro_f1_mean": 0.4955558391356611,
+        "macro_f1_std": 0.020966996037686925,
+        "precision_mean": 0.5048336056113474,
+        "precision_std": 0.016958426943450792,
+        "recall_mean": 0.64,
+        "recall_std": 0.02755675960631074,
+        "f1_mean": 0.5643848737877196,
+        "f1_std": 0.020793062231742064,
+        "roc_auc_mean": 0.5127848123034592
+      },
+      "delta_macro_f1": 0.0005565327231598638,
+      "delta_roc_auc": -0.0015070754716980383
+    }
+  }
+}
