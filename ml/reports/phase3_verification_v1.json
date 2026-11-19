@@ -1,0 +1,699 @@
+{
+  "timestamp": "2026-11-19T11:25:16.267624",
+  "models_verified": {
+    "authorship": {
+      "path": "api\\models\\authorship_classical.joblib",
+      "type": "<class 'sklearn.pipeline.Pipeline'>",
+      "loaded_cleanly": true
+    },
+    "deception": {
+      "path": "api\\models\\deception_classical.joblib",
+      "type": "<class 'sklearn.pipeline.Pipeline'>",
+      "loaded_cleanly": true
+    }
+  },
+  "item_1_top_features": {
+    "authorship": {
+      "negative_weights": [
+        {
+          "feature": "br",
+          "weight": -3.3859694522167385,
+          "target_class": "human"
+        },
+        {
+          "feature": "to",
+          "weight": -2.927568896458672,
+          "target_class": "human"
+        },
+        {
+          "feature": "br br",
+          "weight": -2.6508492155303487,
+          "target_class": "human"
+        },
+        {
+          "feature": "and",
+          "weight": -2.461552706085207,
+          "target_class": "human"
+        },
+        {
+          "feature": "my",
+          "weight": -2.2339893061235774,
+          "target_class": "human"
+        },
+        {
+          "feature": "for",
+          "weight": -2.18629602417383,
+          "target_class": "human"
+        },
+        {
+          "feature": "but",
+          "weight": -2.0191470168644003,
+          "target_class": "human"
+        },
+        {
+          "feature": "on",
+          "weight": -1.991955169268569,
+          "target_class": "human"
+        },
+        {
+          "feature": "at",
+          "weight": -1.9656507822925071,
+          "target_class": "human"
+        },
+        {
+          "feature": "it",
+          "weight": -1.9397067580591958,
+          "target_class": "human"
+        },
+        {
+          "feature": "in",
+          "weight": -1.894061014422497,
+          "target_class": "human"
+        },
+        {
+          "feature": "no",
+          "weight": -1.8847434198465696,
+          "target_class": "human"
+        },
+        {
+          "feature": "with",
+          "weight": -1.7679001001685821,
+          "target_class": "human"
+        },
+        {
+          "feature": "from",
+          "weight": -1.7563567963222955,
+          "target_class": "human"
+        },
+        {
+          "feature": "this",
+          "weight": -1.7372220039503998,
+          "target_class": "human"
+        },
+        {
+          "feature": "wonderful",
+          "weight": -1.5688046973844842,
+          "target_class": "human"
+        },
+        {
+          "feature": "so",
+          "weight": -1.530072559474533,
+          "target_class": "human"
+        },
+        {
+          "feature": "even",
+          "weight": -1.4941063534626957,
+          "target_class": "human"
+        },
+        {
+          "feature": "another",
+          "weight": -1.4618591029564731,
+          "target_class": "human"
+        },
+        {
+          "feature": "otherwise",
+          "weight": -1.4558447802937866,
+          "target_class": "human"
+        }
+      ],
+      "positive_weights": [
+        {
+          "feature": "will keep",
+          "weight": 3.897904766618056,
+          "target_class": "ai"
+        },
+        {
+          "feature": "the only",
+          "weight": 3.4631459257945654,
+          "target_class": "ai"
+        },
+        {
+          "feature": "and it",
+          "weight": 3.296989018554027,
+          "target_class": "ai"
+        },
+        {
+          "feature": "has the",
+          "weight": 2.5752315957586664,
+          "target_class": "ai"
+        },
+        {
+          "feature": "had to",
+          "weight": 2.4977449135076815,
+          "target_class": "ai"
+        },
+        {
+          "feature": "very good",
+          "weight": 2.426599103308316,
+          "target_class": "ai"
+        },
+        {
+          "feature": "and the",
+          "weight": 2.3826158939855318,
+          "target_class": "ai"
+        },
+        {
+          "feature": "but it",
+          "weight": 2.381287025747563,
+          "target_class": "ai"
+        },
+        {
+          "feature": "have one",
+          "weight": 2.278110208183452,
+          "target_class": "ai"
+        },
+        {
+          "feature": "have large",
+          "weight": 2.240421730676997,
+          "target_class": "ai"
+        },
+        {
+          "feature": "that it",
+          "weight": 2.202772261823122,
+          "target_class": "ai"
+        },
+        {
+          "feature": "it very",
+          "weight": 2.1847459312158413,
+          "target_class": "ai"
+        },
+        {
+          "feature": "is little",
+          "weight": 2.138648083384575,
+          "target_class": "ai"
+        },
+        {
+          "feature": "had lot",
+          "weight": 2.097623656335581,
+          "target_class": "ai"
+        },
+        {
+          "feature": "or too",
+          "weight": 2.0493935579679197,
+          "target_class": "ai"
+        },
+        {
+          "feature": "only reason",
+          "weight": 2.0303947509720364,
+          "target_class": "ai"
+        },
+        {
+          "feature": "it been",
+          "weight": 2.022546771300853,
+          "target_class": "ai"
+        },
+        {
+          "feature": "is bit",
+          "weight": 2.0005091650445572,
+          "target_class": "ai"
+        },
+        {
+          "feature": "not need",
+          "weight": 1.9824527290735885,
+          "target_class": "ai"
+        },
+        {
+          "feature": "lot of",
+          "weight": 1.9623674109965148,
+          "target_class": "ai"
+        }
+      ]
+    },
+    "deception": {
+      "negative_weights": [
+        {
+          "feature": "we",
+          "weight": -1.309288488445634,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "floor",
+          "weight": -1.2701056551510825,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "location",
+          "weight": -1.1769611139565306,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "rate",
+          "weight": -1.0559668020608608,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "small",
+          "weight": -1.0315039878371177,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "street",
+          "weight": -0.9226977731277151,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "breakfast",
+          "weight": -0.8953186956162389,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "priceline",
+          "weight": -0.8478492856775023,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "concierge",
+          "weight": -0.829694943075055,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "on",
+          "weight": -0.8231331308201889,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "reviews",
+          "weight": -0.8044024969500999,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "great",
+          "weight": -0.8038981908178767,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "called",
+          "weight": -0.7799926323803897,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "bathroom",
+          "weight": -0.7659729572567291,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "construction",
+          "weight": -0.7647009287426512,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "helpful",
+          "weight": -0.7634563856199746,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "conference",
+          "weight": -0.7583880566971585,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "bed",
+          "weight": -0.743783331321941,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "upgraded",
+          "weight": -0.7285738612226577,
+          "target_class": "genuine"
+        },
+        {
+          "feature": "no",
+          "weight": -0.6883364606569312,
+          "target_class": "genuine"
+        }
+      ],
+      "positive_weights": [
+        {
+          "feature": "chicago",
+          "weight": 2.2127108938100135,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "luxury",
+          "weight": 1.4664591632008055,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "my",
+          "weight": 1.4039452016239125,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "vacation",
+          "weight": 1.0632785209609519,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "my stay",
+          "weight": 1.058226819999944,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "the food",
+          "weight": 0.9158979810934537,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "experience",
+          "weight": 0.8614934730108651,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "chicago hotel",
+          "weight": 0.8575208803090684,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "when",
+          "weight": 0.8291827601973171,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "this hotel",
+          "weight": 0.826314539279115,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "luxurious",
+          "weight": 0.8156287117520575,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "seemed",
+          "weight": 0.7877522690878666,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "hilton",
+          "weight": 0.7865791729049599,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "recently",
+          "weight": 0.7717743483764329,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "food",
+          "weight": 0.7696978580632651,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "hotel chicago",
+          "weight": 0.7521863808945728,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "hilton chicago",
+          "weight": 0.739555364161833,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "east hotel",
+          "weight": 0.7288344570734188,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "definitely",
+          "weight": 0.7281734314781924,
+          "target_class": "deceptive"
+        },
+        {
+          "feature": "spa",
+          "weight": 0.7178309862621658,
+          "target_class": "deceptive"
+        }
+      ]
+    }
+  },
+  "item_2_misclassified_examples": {
+    "authorship_salminen_test": {
+      "total_misclassified": 270,
+      "samples_count": 10,
+      "samples": [
+        {
+          "row_id": "salminen_32987",
+          "true_label": "human",
+          "predicted_label": "ai",
+          "predicted_prob_ai": 0.5423769519409652,
+          "text": "My daughter loves Peppa! after a wile the paint comes off."
+        },
+        {
+          "row_id": "salminen_19520",
+          "true_label": "human",
+          "predicted_label": "ai",
+          "predicted_prob_ai": 0.5361731036931693,
+          "text": "Size is a little small but hey well made..."
+        },
+        {
+          "row_id": "salminen_1434",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.16115435212085685,
+          "text": "Love this pan. Purchased this pan because I needed something that would keep my cheese hot and stayed hot longer."
+        },
+        {
+          "row_id": "salminen_27663",
+          "true_label": "human",
+          "predicted_label": "ai",
+          "predicted_prob_ai": 0.5904842959369664,
+          "text": "The author builds an emotional tale with well-developed characters. I think it is worth cautioning readers that are sensitive to the issue of rape that a central element of the story is a woman dealing with her feelings after such an event. The heartbreak and turmoil of such medieval pillaging is part of the nature of Saxon attacks on a rural Roman villa in England. The tale is of love and triumph"
+        },
+        {
+          "row_id": "salminen_20625",
+          "true_label": "human",
+          "predicted_label": "ai",
+          "predicted_prob_ai": 0.6187469574295487,
+          "text": "My dog loves this duck & carries it around everywhere. A lot of his dog buddies have it & they all love it too"
+        },
+        {
+          "row_id": "salminen_20308",
+          "true_label": "human",
+          "predicted_label": "ai",
+          "predicted_prob_ai": 0.6133211515942825,
+          "text": "Smells amazing! My dog loves these treats and they are the perfect size for training, and for small dogs."
+        },
+        {
+          "row_id": "salminen_16301",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.4791009725236584,
+          "text": "It's quite bright, but we use it at night and it's not as bright as the inc"
+        },
+        {
+          "row_id": "salminen_19732",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.4685295834814414,
+          "text": "My furkids love these!! It's a real shame they don't fit in the crate, I"
+        },
+        {
+          "row_id": "salminen_36956",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.37059698193522467,
+          "text": "Great quality -- I cut it in half with a thin layer of clingy fabric."
+        },
+        {
+          "row_id": "salminen_25018",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.44306059213486754,
+          "text": "This book has many excellent recipes. The recipes are easy to follow and make for a quick and healthy meal. The recipes are also easy to follow and have a great"
+        }
+      ]
+    },
+    "authorship_raid_test": {
+      "total_misclassified": 48,
+      "samples_count": 10,
+      "samples": [
+        {
+          "row_id": "40c7c3bb-0a8f-41b6-8d83-2952db9284c7",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.4879285475433821,
+          "text": "A very enjoyable action flick with some good science fiction elements...this film will keep you glued to your seat. Steven Spielberg has delivered again and deserves high ratings in every respect! Great special effects, believable storyline (especially considering sci fi movies) and awesome acting all make this one worth seeing more than once!! Johnny Depp's performance as John Anderton was top no"
+        },
+        {
+          "row_id": "2fc6f265-465d-4476-90b3-66a1f808887b",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.3319789360507695,
+          "text": "Quentin Tarantino's latest film, Django un chained (2012), has been described as his most controversial and violent work to date; however it also contains some very powerful messages about slavery in America that are worth exploring further here on this website dedicated towards understanding how racism works today through its historical roots within American society during times past such those d"
+        },
+        {
+          "row_id": "fd88fb2d-df60-4c61-bf28-998b5feaefd1",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.22296303751453417,
+          "text": "\"'Miracle' is a good movie and very motivating. I hope it inspires many people. It brings back memories of an America I once knew, and a time when Americans respected themselves and others and took pride in their country. I grew up in the late 50s and early 60s and I never recall seeing so much hatred between people as there is now. It's become the norm. \"There's even hatred between Americans and "
+        },
+        {
+          "row_id": "e1ea2964-77c7-45dc-bb5f-19d7692bf15b",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.06618995277802159,
+          "text": "What's interesting about Jerry Maguire is that it is a movie that most people will not \"fall in love with.\" The first time you see it, you're likely to dismiss it as another Hollywood \"bubble-gum.\" And although it's an entertaining film, when you really start to think about it, when you think about its meaning, its messages and its morals, it's a great film. Think about this scenario: A top-dollar"
+        },
+        {
+          "row_id": "110fed90-cc73-4549-aaa3-5785d7e3ad44",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.2992433554688651,
+          "text": "\"Ocean's Thirteen\" revisits the fun and finesse of its predecessor \"Ocean's Eleven\" and finds a way to make up for the lost ground suffered by the lacklustre sequel \"Ocean's Twelve\". Despite being the third instalment in the franchise, it doesn't feel stale. Instead, the familiarity and charm of the star-studded ensemble almost feels comforting. George Clooney, Brad Pitt and Matt Damon, form the h"
+        },
+        {
+          "row_id": "6b3fa5bc-47c9-4557-97a1-fcf21c134e78",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.44573615777846376,
+          "text": "IMDb User Rating : 9 (14,956 Votes) / 10 Stars \u2013 627 Users Reviewed This Motion Picture & Their Average Score Was 7/10 Or An 86% Approval Fraction!"
+        },
+        {
+          "row_id": "817c67fa-5106-4f73-8962-d1b6091db798",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.11917578327933205,
+          "text": "Orson Welles crafted \"Citizen Kane\" to mock the style of wildly successful news moguls of his time. In many ways, it's an homage to the power of journalism to destroy lives. The primary subject of the film, Charles Foster Kane, is seen entirely through the lens of the news media; we never get a glimpse of his human side. He remains a monolith, a distant, inaccessible figure, partially because he's"
+        },
+        {
+          "row_id": "64bc0d2a-5d61-4600-8ded-fcd9f65ddf19",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.004512564807917918,
+          "text": "I'm not going to lie. I came into viewing Justice League with high expectations and some degree of cynicism (having seen Batman vs. Superman, Man Of Steel and Suicide Squad, as well as countless other DC superhero movies over my years spent reading comic books). It's that last one, where most people seem to think they're getting their money's worth out of a superhero team movie without actually ev"
+        },
+        {
+          "row_id": "b181cf40-1430-4943-bc12-c87529ee5404",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.07741842052789272,
+          "text": "This movie earns its R rating, not due to profanity, but to aggressive sexual content and graphic violence. There are also F bombs dropped throughout. It was funny in spots, but the raunchy sexual humor was distracting. There are better, cleaner comedies out there. I gave this movie a chance, but should have left when the guy behind me started yelling at the screen after about 30 minutes in. I thi"
+        },
+        {
+          "row_id": "d0492103-c19f-4ac7-a817-6d2c28055c0d",
+          "true_label": "ai",
+          "predicted_label": "human",
+          "predicted_prob_ai": 0.13924818806716846,
+          "text": "Sure! Here's my review of the 2017 film Justice League: I went into this movie with low expectations, and unfortunately, it did not exceed them. The plot was predictable and lacked depth, feeling like a carbon copy of previous superhero team-up movies.The dialogue was cringeworthy at times, and some characters were poorly developed or underutilized. Specifically, the portrayal of the Flash was obn"
+        }
+      ]
+    },
+    "deception_ott": {
+      "prediction_source": "5-fold stratified cross-validation out-of-fold (OOF) predictions",
+      "note": "Saved model in api/models/deception_classical.joblib fits full Ott dataset with 0 errors; OOF predictions reflect generalization errors.",
+      "total_misclassified": 169,
+      "samples_count": 10,
+      "samples": [
+        {
+          "row_id": "ott_1301",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.13120753905664845,
+          "text": "Our vacation was highlighted by a four day stay at Homewood Suites by Hilton Chicago Downtown.I believed it would be the best part of the trip; I discovered it was an unfolding nightmare. While in our lovely room on the fifteenth floor, a voice emanating from the phone, informed us of the pending fire alarm and what procedures to follow. Anyone above the tenth floor was instructed to go into the b"
+        },
+        {
+          "row_id": "ott_277",
+          "true_label": "genuine",
+          "predicted_label": "deceptive",
+          "predicted_prob_deceptive": 0.6126587491784375,
+          "text": "Great beds, clean rooms, amazing bathroom, nifty view, wonderful service, expensive parking ($40, but it's Chicago), speedy in and out. Very European in sensibility and amenities, but with air conditioning!"
+        },
+        {
+          "row_id": "ott_1105",
+          "true_label": "genuine",
+          "predicted_label": "deceptive",
+          "predicted_prob_deceptive": 0.6241902806439238,
+          "text": "I had my wedding ceremony and reception at the Sofitel. It seems as though I had the same experience as 'Judy L.' I read her review and thought 'that's exactly what happened to me!' Here's what happened: The good news: The actual event was great. Most notably, the food was absolutely incredible; I think almost every one of our guests has raved to us about the food. The same goes for the cake, whic"
+        },
+        {
+          "row_id": "ott_274",
+          "true_label": "genuine",
+          "predicted_label": "deceptive",
+          "predicted_prob_deceptive": 0.7981327211501688,
+          "text": "Dispite what other are saying, this was one, if not the best Hotel stay in Chicago I have had. I travel to the Big City about three times a year for pleasure and The James rates up with the best. I was upgraded and the staff made the stay worth my special weekend visit. I don't believe you will be disapointed."
+        },
+        {
+          "row_id": "ott_1347",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.25305175578605227,
+          "text": "This might be a classy looking hotel in downtown Chicago, and while the location is not bad, the rooms are definitely hit or miss. They range from the super basic 'affordable' room to the presidential and huge suites that only presidents could probably even afford. With so many different room options, it's no wonder they have difficulty honoring your exact reservation if you check-in past 4:00 pm."
+        },
+        {
+          "row_id": "ott_1531",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.06470261195562668,
+          "text": "Recently stayed at the InterContinental Chicago Magnificent Mile and was a little underwhelmed. It's convenient location did not compensate for the fact that the property is very old and definitely in need of some updating and renovating. There is a definite need for some noise control -- everything and everybody could be heard from inside the room. Hearing the plumbing from other guests' rooms wa"
+        },
+        {
+          "row_id": "ott_1573",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.2636952992049828,
+          "text": "My wife and I were excited to visit and shop at Chicago's Magnificent Mile on Michigan Ave. We chose the Intercontinental Hotel for it's reputation and location. Man oh man, were we disappointed. The check in was smooth enough even though the hotel was busy and all seemed well. We got ready to go out shopping and went to visit the concierge in the lobby to ask about suggestions and bargains. There"
+        },
+        {
+          "row_id": "ott_486",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.05759634466088042,
+          "text": "I work for a software marketing firm, and that job requires me to travel at least 100 days per year. I spend a large amount of time in hotels. I normally don't write reviews for hotels, but the Homewood Suites by Hilton were above and beyond. Let's start where it matters: the rooms. They are top notch. There's nothing better than walking in to a clean, beautiful rooms after a long day of travel. T"
+        },
+        {
+          "row_id": "ott_1031",
+          "true_label": "genuine",
+          "predicted_label": "deceptive",
+          "predicted_prob_deceptive": 0.8233742720930822,
+          "text": "This morning, I checked out and left behind one of the worst hotel experiences I've ever had: Hard Rock Hotel, Chicago. I am in disbelief that this hotel is part of the 'Preferred Hotels' group. Upon checking in, I was 'greeted' by a front desk staff that had better things to be doing and let it show. My room was poorly lit and dirty. The desk/desk chair was covered in sticky, dried soda pop (or s"
+        },
+        {
+          "row_id": "ott_582",
+          "true_label": "deceptive",
+          "predicted_label": "genuine",
+          "predicted_prob_deceptive": 0.14972433691767187,
+          "text": "Friendly staff, clean building and rooms. The hotel was located nearby everything we were interested in seeing. Staff was willing to help give directions and very knowledgable of city. Rooms were beautifully designed and well lit, spacious and comfortable."
+        }
+      ]
+    }
+  },
+  "item_3_bootstrap_ci": {
+    "salminen_test": {
+      "n_bootstraps": 1000,
+      "observed_macro_f1": 0.933179842601162,
+      "bootstrap_mean": 0.9333948130047947,
+      "bootstrap_std": 0.004161644699472001,
+      "ci_95_lower": 0.9250185400180019,
+      "ci_95_upper": 0.9413500157532785
+    },
+    "raid_test": {
+      "n_bootstraps": 1000,
+      "observed_macro_f1": 0.8297181079789775,
+      "bootstrap_mean": 0.8292263380418367,
+      "bootstrap_std": 0.022542982749921742,
+      "ci_95_lower": 0.7864694442807472,
+      "ci_95_upper": 0.872371954367495
+    }
+  },
+  "item_5_near_duplicates": {
+    "salminen": {
+      "dataset": "salminen",
+      "total_test_rows": 4041,
+      "near_duplicate_count": 39,
+      "near_duplicate_ratio": 0.009651076466221232,
+      "macro_f1_before": 0.933179842601162,
+      "macro_f1_after": 0.9325336657345148,
+      "macro_f1_diff": -0.0006461768666472523
+    },
+    "raid": {
+      "dataset": "raid",
+      "total_test_rows": 297,
+      "near_duplicate_count": 2,
+      "near_duplicate_ratio": 0.006734006734006734,
+      "macro_f1_before": 0.8297181079789775,
+      "macro_f1_after": 0.8289855072463768,
+      "macro_f1_diff": -0.00073260073260073
+    }
+  }
+}

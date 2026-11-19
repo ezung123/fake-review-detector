@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-19T11:28:55.591218",
+  "model_path": "api\\models\\authorship_classical.joblib",
+  "dataset_path": "data\\processed\\synthetic_hotel_ai.csv",
+  "overall": {
+    "total_reviews": 200,
+    "predicted_ai_count": 4,
+    "predicted_ai_percentage": 2.0,
+    "mean_predicted_prob_ai": 0.07489134909469952,
+    "median_predicted_prob_ai": 0.057967051920364596
+  },
+  "positive_sentiment": {
+    "total_reviews": 100,
+    "predicted_ai_count": 4,
+    "predicted_ai_percentage": 4.0,
+    "mean_predicted_prob_ai": 0.08686227687472328,
+    "median_predicted_prob_ai": 0.06590279383525806
+  },
+  "negative_sentiment": {
+    "total_reviews": 100,
+    "predicted_ai_count": 0,
+    "predicted_ai_percentage": 0.0,
+    "mean_predicted_prob_ai": 0.06292042131467576,
+    "median_predicted_prob_ai": 0.05353228039111388
+  },
+  "statistical_power_assessment": {
+    "is_detection_rate_low": true,
+    "interpretation": "The AI detection rate on known synthetic hotel reviews is low (2.00% detected as AI, mean P(AI) = 0.0749). Because the classical authorship model fails to reliably identify AI-generated text in the hotel domain, the Ott independence test lacks statistical power and the 0.19% result cannot be interpreted as confirming independence."
+  }
+}
